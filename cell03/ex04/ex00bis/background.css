@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: background-color 0.0s ease;
+}
+
+#btn:hover {
+    background-color: #f0f0f0;
+}
+
+#btn:active {
+    transform: scale(0.95);
+}
