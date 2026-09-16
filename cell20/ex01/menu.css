@@ -1,0 +1,39 @@
+body {
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #222;
+    border: 1px solid #444;
+    min-width: 120px;
+    border-radius: 4px;
+    margin-top: 0px;
+}
+
+.menu:hover .drop, 
+.drop:hover {
+    display: block;
+}
+
+.drop a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.drop a:hover {
+    background-color: #444;
+}
